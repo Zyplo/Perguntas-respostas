@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas e Respostas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="question" data-value="5">
+        <h1>Qual o menor elemento de todos?</h1>
+        <form class="pergunta">
+            <span>Bactérias</span>
+            <input type="radio" name="pergunta1" value="incorreta">
+            <br/>
+            <span>Micróbios</span>
+            <input type="radio" name="pergunta1" value="incorreta">
+            <br/>
+            <span>Elétrons</span>
+            <input type="radio" name="pergunta1" value="correta">
+            <br/>
+        </form>
+    </div>
+
+    <div class="question" data-value="3">
+        <h1>Qual a primeira letra do Alfabeto?</h1>
+        <form class="pergunta">
+            <span>B</span>
+            <input type="radio" name="pergunta2" value="incorreta">
+            <br/>
+            <span>A</span>
+            <input type="radio" name="pergunta2" value="correta">
+            <br/>
+            <span>Z</span>
+            <input type="radio" name="pergunta2" value="incorreta">
+            <br/>
+        </form>
+    </div>
+
+    <!-- Nova pergunta -->
+    <div class="question" data-value="2">
+        <h1>Qual planeta é conhecido como Planeta Vermelho?</h1>
+        <form class="pergunta">
+            <span>Júpiter</span>
+            <input type="radio" name="pergunta3" value="incorreta">
+            <br/>
+            <span>Marte</span>
+            <input type="radio" name="pergunta3" value="correta">
+            <br/>
+            <span>Vênus</span>
+            <input type="radio" name="pergunta3" value="incorreta">
+            <br/>
+        </form>
+    </div>
+
+    <!-- Nova pergunta -->
+    <div class="question" data-value="4">
+        <h1>Quantos lados tem um quadrado?</h1>
+        <form class="pergunta">
+            <span>3</span>
+            <input type="radio" name="pergunta4" value="incorreta">
+            <br/>
+            <span>4</span>
+            <input type="radio" name="pergunta4" value="correta">
+            <br/>
+            <span>5</span>
+            <input type="radio" name="pergunta4" value="incorreta">
+            <br/>
+        </form>
+    </div>
+
+    <button id="verificarTodasRespostas">Verificar Todas as Respostas</button>
+    <div id="mensagemResposta"></div>
+    <div class="Pontuacao" id="pontuacao">Pontuação: 0</div>
+    <script src="script.js"></script>
+</body>
+</html>
